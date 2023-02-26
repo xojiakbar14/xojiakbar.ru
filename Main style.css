@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+nav{
+    margin: 50px;
+}
+
+.container{
+    width:85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+.section{
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card{
+    color: azure;
+    text-align: center;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.container ul a{
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+}
